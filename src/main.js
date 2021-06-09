@@ -15,4 +15,4 @@ class Root extends preact.Component {
 	}
 }
 
-preact.render(<Root></Root>);
+preact.render(<Root></Root>, document.getElementById('root'));
